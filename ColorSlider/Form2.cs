@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace ColorSlider
 {
-    public partial class MainForm : Form
+    public partial class Form2 : Form
     {
-        public MainForm()
+        public Form2()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Form2 f2 = new Form2();
-            f2.Show();
         }
     }
 }
